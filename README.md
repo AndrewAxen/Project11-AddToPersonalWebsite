@@ -1,24 +1,18 @@
-# Project 10 - Add To Personal Website
+# Project 11 - Add To Personal Website
 
 ## Requirements:
 
-**Step One**
+**Option One**
 
-One possibility would be to apply the fade-and-slide-in effect to the content in your website’s different sections. You can use the code you just wrote in the mini-project as a guide. Another possibility would be to implement some kind of calculator, animation event, drag and drop (if you went through the AEL lesson covering that), a list creator, etc.
-You can decide which of these suggestions you want to incorporate, but pick at least one.
-
-**Step Two**
-
-Add one or more of the mini-projects you completed this week (or something you built outside the course) to GitHub and to your personal website’s project section.
+Build out client-side validation for your website’s contact form. Use a combination of HTML validation and JavaScript validation. The functionality should be as follows:
+- The border of any invalid inputs should change to a different color (usually a shade of red), in order to give a visual cue to the user that the value they entered is invalid. You can also have a brief error message appear below the input, if you want.
+- The validity check can happen either as the user types in a given form field, or on submit (HINT: if implementing validation on submit, make use of the preventDefault() method on ‘submit’ event)
+- The submit button should be disabled until all inputs are valid
+- If the values of all inputs pass the validity check, after the form is submitted a success message should appear either above the first form field or below the last form field (but above the submit button). The success message text color is up to you, but the convention for this is typically a shade of green.
 
 ---
 
-I added a fade-and-slide-in effect to the headers on the main page of my personal website.
-I chose to make this change to enhance the visual appeal and interactivity of my website.
-The animation provides a more engaging user experience by making content appear dynamically as the user scrolls down the page.
-Additionally, I added a new project 4 "String Reversal Web Tool" (which I made this week) to the "Projects" page, including an image, title, description, and a link to the GitHub repository.
-This change was made to showcase my recent work and provide visitors with easy access to project details.
-Overall, these additions improve the overall aesthetics and functionality of my personal website
+I added a client-side validation for my website’s contact form.
 
 ---
 
