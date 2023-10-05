@@ -17,11 +17,13 @@
 </head>
 
 <!--
-            Project 10: Add to Personal Website
+            Project 11: Add to Personal Website
             Requirements:
-            1. One possibility would be to apply the fade-and-slide-in effect to the content in your website’s different sections. You can use the code you just wrote in the mini-project as a guide. Another possibility would be to implement some kind of calculator, animation event, drag and drop (if you went through the AEL lesson covering that), a list creator, etc.
-You can decide which of these suggestions you want to incorporate, but pick at least one.
-            2. Add one or more of the mini-projects you completed this week (or something you built outside the course) to GitHub and to your personal website’s project section.
+            Build out client-side validation for your website’s contact form. Use a combination of HTML validation and JavaScript validation. The functionality should be as follows:
+            - The border of any invalid inputs should change to a different color (usually a shade of red), in order to give a visual cue to the user that the value they entered is invalid. You can also have a brief error message appear below the input, if you want.
+            - The validity check can happen either as the user types in a given form field, or on submit (HINT: if implementing validation on submit, make use of the preventDefault() method on ‘submit’ event)
+            - The submit button should be disabled until all inputs are valid
+            - If the values of all inputs pass the validity check, after the form is submitted a success message should appear either above the first form field or below the last form field (but above the submit button). The success message text color is up to you, but the convention for this is typically a shade of green.
      -->
 
 <body>
@@ -121,10 +123,6 @@ You can decide which of these suggestions you want to incorporate, but pick at l
       </tr>
       <tr>
         <td height="100">
-          <!--     <div id="who-am-i">
-            <h2 class="title_orange">
-              WHO AM I?</h2>
-          </div> -->
 
           <div id="who-am-i">
             <div class="wrap">
@@ -175,10 +173,6 @@ You can decide which of these suggestions you want to incorporate, but pick at l
       </tr>
       <tr>
         <td height="100">
-          <!--       <div id="my-path">
-            <h2 class="title_black">
-              MY PATH</h2>
-          </div> -->
 
           <div id="my-path">
             <div class="wrap">
@@ -264,11 +258,6 @@ You can decide which of these suggestions you want to incorporate, but pick at l
 
       <tr>
         <td colspan="5" height="100">
-          <!--       <div id="why-me">
-            <h2 class="title_orange">
-              WHY ME?
-            </h2>
-          </div> -->
 
           <div id="why-me">
             <div class="wrap">
@@ -321,12 +310,6 @@ You can decide which of these suggestions you want to incorporate, but pick at l
       </tr>
       <tr>
         <td colspan="5" height="100">
-          <!--         <div id="reviews">
-            <h2 class="title_black">
-              REVIEWS
-            </h2>
-          </div>
-          -->
 
           <div id="reviews">
             <div class="wrap">
@@ -597,7 +580,6 @@ You can decide which of these suggestions you want to incorporate, but pick at l
 
           <td colspan="2" align="center">
 
-        <!--    <input type="input" class="button_request" value="INVITE FOR AN INTERVIEW" id="submit-button"> -->
  <button type="submit" id="submit-button" disabled>INVITE FOR AN INTERVIEW</button>
           </td>
 
