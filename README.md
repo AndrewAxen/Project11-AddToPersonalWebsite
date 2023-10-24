@@ -16,4 +16,4 @@ I added a client-side validation for my website’s contact form.
 
 ---
 
-The link is https://AndrewAxen.github.io/Project11-AddToPersonalWebsite
+➡️ [The direct link](https://AndrewAxen.github.io/Project11-AddToPersonalWebsite) ⬅️ to the project
